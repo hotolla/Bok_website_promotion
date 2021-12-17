@@ -1,0 +1,11 @@
+.divider {
+  width: 200px;
+  height: 1px;
+  background: #333399;
+  margin: 0 auto;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  &_green {
+    background: $green;
+  }
+}

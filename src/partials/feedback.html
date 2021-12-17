@@ -1,0 +1,61 @@
+<section class="feedback" id="feedback">
+  <div class="container">
+    <h2 class="title">Задайте нам вопрос о размещении компании в каталоге</h2>
+    <div class="feedback__wrapper row">
+      <div class="col-md-6">
+        <img src="img/feedback/feedback.svg" alt="" class="feedback__img" />
+      </div>
+      <form
+        class="feedback__form col-md-5 offset-md-1"
+        action="#"
+        method="post"
+      >
+        <label for="user-name" class="feedback__label">Ваше имя</label>
+        <input
+          type="text"
+          id="user-name"
+          name="user-name"
+          class="feedback__input"
+          placeholder="Введите ваше имя"
+          required
+          minlength="2"
+          maxlength="20"
+        />
+        <label for="user-telegram" class="feedback__label">Ваш Telegram</label>
+        <input
+          type="text"
+          id="user-telegram"
+          name="user-telegram"
+          class="feedback__input"
+          placeholder="@nickname"
+          required
+        />
+        <label for="user-mail" class="feedback__label"
+          >Ваша электронная почта</label
+        >
+        <input
+          type="email"
+          id="user-mail"
+          name="user-mail"
+          class="feedback__input"
+          placeholder="you@domain.com"
+          required
+        />
+        <label for="user-question" class="feedback__label">Ваш вопрос</label>
+        <input
+          type="text"
+          id="user-question"
+          name="user-question"
+          class="feedback__input"
+          placeholder="Сформулируйте ваш вопрос"
+          required
+        />
+        <button class="btn">Отправить</button>
+        <p class="feedback__text col-md-9">
+          Нажатием на кнопку вы даете согласие на
+          <span>обработку персональных данных</span>
+        </p>
+      </form>
+    </div>
+  </div>
+</section>

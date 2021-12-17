@@ -1,0 +1,17 @@
+.promo {
+  padding: 110px 0 250px;
+  background: url(../img/promo/promo.svg) left bottom/cover no-repeat;
+}
+
+.promo__title {
+  font-size: 52px;
+  font-family: "URW-Bold";
+  span {
+    color: $green;
+  }
+}
+
+.promo__text {
+  margin: 50px 0;
+  font-size: 24px;
+}

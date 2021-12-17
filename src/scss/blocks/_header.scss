@@ -1,0 +1,18 @@
+.header {
+  padding: 40px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.menu__link {
+  color: #333399;
+}

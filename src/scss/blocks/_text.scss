@@ -1,0 +1,26 @@
+.descr {
+  max-width: 562px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item-title {
+  font-family: "URW-Black";
+  font-size: 24px;
+  margin: 21px 0 8px;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  color: #000099;
+  font-family: "URW-Bold";
+  max-width: 954px;
+  width: 100%;
+  margin: 0 auto;
+  span {
+    color: $green;
+    text-transform: uppercase;
+  }
+}

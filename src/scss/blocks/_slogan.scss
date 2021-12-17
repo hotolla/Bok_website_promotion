@@ -1,0 +1,26 @@
+.slogan {
+  padding: 95px 0 172px;
+  background: url(../img/slogan/slogan_wave.svg) center bottom/cover no-repeat;
+  .container {
+    position: relative;
+  }
+}
+
+.slogan__img {
+  position: absolute;
+  bottom: -100px;
+  left: -160px;
+  max-width: 546px;
+  width: 100%;
+}
+
+.slogan__title {
+  font-size: 40px;
+  color: #000099;
+  font-family: "URW-Bold";
+  margin-top: 415px;
+  span {
+    color: $green;
+    text-transform: uppercase;
+  }
+}

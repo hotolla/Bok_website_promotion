@@ -1,0 +1,26 @@
+.footer {
+  padding: 160px 0 60px;
+  background: #f5f9ff;
+}
+.footer__list {
+  list-style: none;
+}
+
+.footer__link {
+  color: #333399;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: end;
+  gap: 26px;
+}
+
+.footer__social-img {
+  color: #333399;
+  display: inline-block;
+}
+
+.footer__info {
+  margin-top: 120px;
+}
